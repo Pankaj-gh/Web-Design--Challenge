@@ -15,20 +15,29 @@
 
     <body>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a href="#" class="navbar-brand">Lattitude</a>
+            <a href="#" class="navbar-brand" id="blue">Lattitude</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#mainbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             <div class="collapse navbar-collapse" id="mainbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Plots</a>
-                </li>
-                <li class="nav-item">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardropdown" role="button" data-toggle="dropdown">Plots</a>
+                            <div class="dropdown-menu" aria-labelledby="navbardropdown">
+                                <a href="#" class="dropdown-item">Plot 1</a>
+                                <a href="#" class="dropdown-item">Plot 2</a>
+                                <a href="#" class="dropdown-item">Plot 3</a>
+                                <a href="#" class="dropdown-item">Plot 4</a>
+                            </div>
+                    </li>
+                    <li class="nav-item ">
                     <a href="#" class="nav-link">Comparasion</a>
-                </li>
-            </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link">Data</a>
+                    </li>
+                </ul>
             </div>
         </nav>
        
