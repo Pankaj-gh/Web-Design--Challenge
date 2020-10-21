@@ -1,8 +1,6 @@
-.nav-link{color:navy;
-    background-color:black;
-    border-radius: 40%;
 
-}
+
+
 #blue {
     color:navy;
     background-color:whitesmoke;
@@ -23,16 +21,18 @@
         position: relative;
 }
 #image {
-    width: 230px;
-    height: 230px;
+    width: 330px;
+    height: 300px;
     margin-right: 20px;
 }
 #box {
-    padding: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding-top: 20px;
     color:black;
     background: white;
-    margin:120px;
-    border-radius: 5%;
+    
+   
     
 }
 #body{
@@ -40,4 +40,19 @@
 }
 .text{
     font-size: large;
+}
+.lphead{
+    color: navy;
+    font-size:xx-large;
+}
+.llhead{
+    font-size:large;
+
+}
+#box1 {
+    margin-top: 30px;
+    padding-top: 20px;
+    color:black;
+    background: blueviolet;
+   
 }
