@@ -1,6 +1,43 @@
-#blue {
-    color:white;
+.nav-link{color:navy;
+    background-color:black;
+    border-radius: 40%;
+
 }
-#blue{
-    background-color:seagreen;
+#blue {
+    color:navy;
+    background-color:whitesmoke;
+    border-radius: 10%;
+}
+
+.col-md-8 {
+    width: 1024px;
+    margin: 0 auto;
+
+}
+#main,
+#image {
+    float:left
+}
+
+#figure {
+        position: relative;
+}
+#image {
+    width: 230px;
+    height: 230px;
+    margin-right: 20px;
+}
+#box {
+    padding: 20px;
+    color:black;
+    background: white;
+    margin:120px;
+    border-radius: 5%;
+    
+}
+#body{
+    background-color: lightgray;
+}
+.text{
+    font-size: large;
 }
