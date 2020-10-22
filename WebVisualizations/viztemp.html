@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Landing Page</title>
+        <title>Viz Temperature</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
@@ -26,13 +26,13 @@
                         <a href="#" class="nav-link dropdown-toggle" id="navbardropdown" role="button" data-toggle="dropdown" aria-haspopup="true">Plots</a>
                             <div class="dropdown-menu" aria-labelledby="navbardropdown">
                                 <a href="viztemp.html" target="_blank" class="dropdown-item">Temperature</a>
-                                <a href="Resources/assets/images/Fig2.png" target="_blank" class="dropdown-item">Humidity</a>
-                                <a href="Resources/assets/images/Fig3.png" target="_blank" class="dropdown-item">Cloudiness</a>
-                                <a href="Resources/assets/images/Fig4.png" target="_blank" class="dropdown-item">Wind Speed</a>
+                                <a href="vizhum.html" target="_blank" class="dropdown-item">Humidity</a>
+                                <a href="vizclo.html" target="_blank" class="dropdown-item">Cloudiness</a>
+                                <a href="vizwin.html" target="_blank" class="dropdown-item">Wind Speed</a>
                             </div>
                     </li>
                     <li class="nav-item ">
-                    <a href="comp.html" target="_blank" class="nav-link">Comparasion</a>
+                    <a href="#" class="nav-link">Comparasion</a>
                     </li>
                     <li class="nav-item ">
                         <a href="#" class="nav-link">Data</a>
@@ -43,59 +43,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8" id="box">                                    
-                    <h1 class="lphead">Summary: Lattitude vs. X</h1>
+                    <h1 class="lphead">Max Temperature</h1>
                     <br>
-                    <hr>
-                    <br>
-                    <section id="main">
-                        <section id="figure">
-                            <img id="image"src="Resources/assets/images/Fig1.png">
-                        </section>
-                        <p class="text">The purpose of this project was to analyze how the weather changes as you get closer to the equator.To accomplish the analysis, 
-                            we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.
-                        </p>
-                            
-                        <br>
-                        
-                        <p class="text">After assembling the dataset, we used Matplotlib to plot various aspects of weather vs lattitude. Factors we looked at included temperature,
-                            cloudiness, wind speed and humidity. This site provides the source data and cisualizations created as part of the analysis, as well as explainations
-                            and descriptions of any trends and correlations witnessed.
-                        </p>
-                        
-                    </section>
+                    <hr>            
+                    <img id="imageviz"src="Resources/assets/images/Fig1.png">
+                    <p>As expected, the weather becomes significantly warmer as one approaches the  equator (0 Deg.Lattiude) More interestingly, however,
+                        is the fact that the southern hemisphere tends to be warmer this time of the year than the northen hemisphere. This may be due to
+                        the tild of the earth at the time of the year this data was gathered.
+                    </p>
                 </div>
-             
-                
                 <div class="col-md-4">
                     <div class="container" id="box">
                     <h1 class="llhead lphead">Visualizations</h1>
                     <hr>
-                    <br>
+                    <br>    
                     <section id="figure1">
                         <a href="viztemp.html" target="_blank">
                             <img id="image1"src="Resources/assets/images/Fig1.png">
                         </a>    
-                        <a href="Resources/assets/images/Fig2.png" target="_blank">
+                        <a href="vizhum.html" target="_blank">
                             <img id="image1"src="Resources/assets/images/Fig2.png">
                         </a>
-                        <a href="Resources/assets/images/Fig2.png" target="_blank">
+                        <a href="vizclo.html" target="_blank">
                         <img id="image1"src="Resources/assets/images/Fig3.png">
                         </a>
-                        <a href="Resources/assets/images/Fig2.png" target="_blank">
+                        <a href="vizwin.html" target="_blank">
                         <img id="image1"src="Resources/assets/images/Fig4.png">
                         </a>
                     </section>
                     </div>
-                </div>
-                    
-               
+                </div> 
             </div>
-        </div>   
-
-                      
-        
-    
-           
-        
+        </div>          
     </body>
 </html>
+                    
